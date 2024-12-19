@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+.hero{
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+.hero:nth-child(2){
+  padding : 5px;
+  text-align : center;
+	
+}
+
+img{
+	width : 700px;
+	height : 200px;
+	object-fit : cover;
+}
+
+button{
+	padding : 5px;
+	background-color : orange;
+	color : white;
+	border-radius : 10px;
+}
